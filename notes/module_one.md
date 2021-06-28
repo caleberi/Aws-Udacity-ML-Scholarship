@@ -20,3 +20,9 @@ Machine learning is creating rapid and exciting changes across all levels of soc
 - Describe commonly used ML algorithms eg K-means ,regression e.t.c
 - Describe model training and testing work.
 - Performance Evaluation of ML model using metrics.
+
+---------------------------------------
+
+### What is ML (Machine Learning) 
+
+Allowing computers to automatically learn and improve from experience without being explicitly programmed to do so , ML can be defined thus. Machine Learning is a modern software development techniques and a type of AI that enables computers to solve problems by using examples of real-world data as a source.
