@@ -63,3 +63,29 @@ __________________      ____________
 + Model training algorithms work through an interactive process where the current model iteration is analyzed to determine what changes can be made to get closer to the goal. Those changes are made and the iteration continues until the model is evaluated to meet the goals.
 
 + Model inference is when the trained model is used to generate predictions.
+
+## Major Steps in the Machine Learning process
+----------------------------------------------------
++ Problem Definition:
+    Think about a specific problem then introduce valid questions . Identify the machine learning task we might use to solve this problem . Characteristic of dataset help in classifying problem to ML task either using label or not.
+
+    ![img](../images/mltask.png)
+    A task is ```supervised``` if when   labeled data is used else it is ```unsupervised```. Unsupervised learning involves using data that doesn't have a label. One common task is called clustering. Clustering helps to determine if there are any naturally occurring groupings in the data.
+
+    ![img](../images/mltask2.png)
+
+In supervised learning, there are two main identifiers you will see in machine learning:
++ A ```categorical``` label has a discrete set of possible values. In a machine learning problem in which you want to identify the type of flower based on a picture, you would train your model using images that have been labeled with the categories of flower you would want to identify. Furthermore, when you work with categorical labels, you often carry out classification tasks*, which are part of the supervised learning family.
++ A ```continuous``` (regression) label does not have a discrete set of possible values, which often means you are working with numerical data. In the snow cone sales example, we are trying to predict the number* of snow cones sold. Here, our label is a number that could, in theory, be any value.
++ DataSet Construction
++ Model Training
++ Model Evaluation
++ Model inferencing
+
+
+
+### Additional Learning Material
+ - The [AWS Machine Learning blog](https://aws.amazon.com/blogs/machine-learning/) is a great resource for learning more about projects in machine learning.
+ - You can use [Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/calculating-new-stats-in-major-league-baseball-with-amazon-sagemaker/) to calculate new stats in Major League Baseball.
+ - You can also find an article on [Flagging suspicious healthcare claims with Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/flagging-suspicious-healthcare-claims-with-amazon-sagemaker/) on the AWS Machine Learning blog.
+What [kinds of questions and problems](https://docs.aws.amazon.com/machine-learning/latest/dg/machine-learning-problems-in-amazon-machine-learning.html) are good for machine learning?
